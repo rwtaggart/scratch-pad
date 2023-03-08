@@ -1,6 +1,6 @@
 {
-  "name": "scratch-edit",
-  "version": "0.1.0",
+  "name": "scratch-pad",
+  "version": "1.0.0",
   "description": "Simple scratch editor for notes",
   "main": "main.js",
   "scripts": {

@@ -1,8 +1,9 @@
 <!-- Scratch Editor -->
 <html>
 <head>
-  <title>Scratch</title>
+  <title>Scratch Pad</title>
   <style>
+    /* https://www.ibm.com/design/language/color/#specifications */
     body {
       font-family: "IBM Plex Sans", sans-serif;
       background-color: #121619;  /* Cool Gray 100 */
@@ -19,10 +20,25 @@
       font-size: 1.3rem;
       background-color: #121619;  /* Cool Gray 100 */
       color: #fff;
+      border-style: none none solid none;
+      border-width: thin;
+
+    }
+    input:focus {
+      /* background-color: yellow; */
+      /* border-style: solid; */
+      /* border-width: medium; */
+      /* background-color: #121619;  Cool Gray 100 */
+      /* color: #fff; */
+      /* border-color: orange; */
+      /* outline-color: blue; */
+      /* border-style: none; */
       /* outline-style: solid;
-      outline-color: #4d5358; */  /* Cool Gray 70 */
-      border-style: solid;
+      outline-color: #a2a9b0; Cool Gray 20
+      outline-width: thin; */
+      border-color: #82cfff; /* Cyan 30 */
       border-width: medium;
+      outline-style: none;
     }
     div.edit {
       min-height: 75vh;
@@ -33,10 +49,10 @@
 </head>
 <body>
   <header>
-    <h2>Scratch Notes</h1>
+    <h2>Scratch Pad</h1>
   </header>
   <main>
-    <input id="name" text="Topic" />
+    <input id="name" text="Topic" autofocus/>
     <div class="edit" contenteditable="true" ></div>
   </main>
 </body>
