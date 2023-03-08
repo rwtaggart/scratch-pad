@@ -1,1 +1,12 @@
+# MacOS metadata
+.DS_Store
+
+# Backup
+backup
+
+# Node Dependencies
 node_modules
+
+# Electron Forge Distribution
+out
+
